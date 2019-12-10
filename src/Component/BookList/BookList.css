@@ -1,0 +1,48 @@
+.booklist{
+    width: 100%;
+}
+.booklist-content{
+    width: 90%;
+    margin-left: 5vw;
+    border-right: 0.8px solid #ebedf0;
+    border-left: 0.8px solid #ebedf0;
+}
+.booklist-div{
+    width: 85%;
+    margin: 0 auto;
+}
+.booklist-content ul li{
+    border-top:0.75px solid #ebedf0;
+    border-bottom: 0.75px solid #ebedf0 ;
+    list-style: none;
+}
+.check{
+    margin: 5vh 0px 5vh 0px;
+}
+.p-name{
+    margin: 1.2em 0 1.2em 0;
+    line-height: 1.5;
+    font-size: 1.05em !important;
+    font-weight: bold;
+}
+.booklist-content ul li{
+    position: relative;
+}
+.booklist-content ul li p{
+    color: rgba(0,0,0,0.85);
+    line-height: 1.5;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+.booklist-content ul li span{
+    color: rgba(0,0,0,0.65);
+    margin-left: 1vw;
+}
+.about{
+    position: absolute;
+    padding:  2vw 8vw 2vw 8vw;
+    margin: -4.5vh 0vw 0vh 50vw ;
+    border: none;
+    background: #40a9ff;
+    color: white;
+}

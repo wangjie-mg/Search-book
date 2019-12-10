@@ -1,0 +1,26 @@
+
+table{
+    display: block;
+    width: 89%;
+    height:35vh;
+    overflow-y: scroll;
+    margin: 5vh auto;
+    font-size: 14px;
+}
+thead{
+    color: rgba(0,0,0,0.85);
+    background: rgb(250,250,250);
+}
+th{
+    padding: 16px;
+    font-weight: 500;
+}
+th,td{
+    line-height:22px;
+    border-bottom: 1px solid #e8e8e8;
+}
+tbody td{
+    color:rgba(0, 0, 0, 0.65);
+    padding: 17px;
+    
+}

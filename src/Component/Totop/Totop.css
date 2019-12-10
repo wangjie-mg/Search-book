@@ -1,0 +1,9 @@
+.totop{
+    /* display: block; */
+    position: fixed ;
+    width: 48px;
+    height: 48px;
+    z-index: 15;
+    margin:60vh 0 0 70vw;
+    background: url(./totop.png) no-repeat;
+}

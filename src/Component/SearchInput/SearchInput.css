@@ -1,0 +1,45 @@
+.input{
+    position: relative;
+    width:80%;
+    padding-top:10vw;
+    margin: 0vw auto;
+}
+.text{
+    position: relative;
+    width: 64vw;
+    height: 10vw;
+    text-indent: 10px;
+    border: 0.4vw solid rgb(217,217,217);
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+}
+
+.text:focus{
+    border-color: #40a9ff ;
+    box-shadow: 0 0 0 1.5px rgba(24,144,255,0.2)
+}
+.submit{
+    position: absolute;
+    width:16vw;
+    height: 10.65vw;
+    border: none;
+    border-radius:0px 5px 5px 0px;
+    background: #40a9ff url(./sosuo.png)  no-repeat 50% 50%;
+}
+.tip{
+    position: absolute;
+    z-index: -1;
+    margin-top: -8vw;
+    width: 100%;
+    line-height: 4vh;
+    text-indent: 10px;
+    font-size: 0.9em;
+    color: rgb(0,0,0,0.75);
+    border: solid 1px #eca;
+    border-radius: 5px;
+    background: #fff8e8;
+    transition: all 0.2s;
+}
+.tip-before{
+    margin-top:0vw;
+}
